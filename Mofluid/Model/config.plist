@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppAccessKey</key>
+	<string>Bearer qc6gpma81ev91o7crkggwxrrn0msxiu2</string>
+	<key>AppURL</key>
+	<string>https://api.mofluid.com/</string>
+	<key>BaseURL</key>
+	<string>http://test.store2.mofluid.com/mofluidapi2?callback=</string>
+	<key>AppBaseURL</key>
+	<string>http://test.store2.mofluid.com/mofluidapi2?callback=</string>
+	<key>StoreID</key>
+	<string>1</string>
+	<key>CurrencyCode</key>
+	<string>USD</string>
+	<key>CountryCode</key>
+	<string>US</string>
+	<key>ApplePayMerchantID</key>
+	<string></string>
+	<key>GoogleClientID</key>
+	<string>477679939685-44ustutk62o452ql0ag637lnsoihs4va.apps.googleusercontent.com</string>
+	<key>PayPalIDSandbox</key>
+	<string>AYlb_Rw76_qytVrtnutzi121o_uLHeNveB_NlO5OzTmtIaIAH6jbSZY0z1o9tENFy_HTbsU3iHbJ5CYw</string>
+	<key>PayPalIDLive</key>
+	<string>YOUR_CLIENT_ID_FOR_PRODUCTION</string>
+</dict>
+</plist>

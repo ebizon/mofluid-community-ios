@@ -1,0 +1,27 @@
+use_frameworks!
+platform :ios, '10.0'
+
+target 'Mofluid' do
+    pod 'PopupDialog'
+    pod 'SloppySwiper'
+    pod 'GoogleSignIn'
+    pod 'FBSDKCoreKit'
+    pod 'FBSDKLoginKit'
+    pod 'FBSDKShareKit'
+    pod 'FacebookCore'
+    pod 'FacebookLogin'
+    pod 'FacebookShare'
+    pod 'SDWebImage'
+    pod 'Firebase/Core'
+    pod 'Firebase/Messaging'
+    pod 'Toast'    
+    pod 'PayPal-iOS-SDK'
+    pod 'TPKeyboardAvoiding'
+    pod 'Fabric'
+    pod 'Crashlytics'
+    pod 'IQKeyboardManagerSwift'
+    pod 'FSPagerView'
+    pod 'Kingfisher'
+    pod 'Stripe'
+    pod 'Alamofire'
+end

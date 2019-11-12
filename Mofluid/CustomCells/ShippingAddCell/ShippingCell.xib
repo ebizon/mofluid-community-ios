@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="KGk-i7-Jjw" customClass="ShippingCell" customModule="Mofluid_2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="79.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tcm-l6-Uzf">
+                        <rect key="frame" x="2" y="5" width="313" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="29" id="F3B-jI-2Le"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8c3-3t-oYV">
+                        <rect key="frame" x="2" y="37.5" width="313" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="K1F-Fd-yeQ"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="17"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FHs-EV-mv6">
+                        <rect key="frame" x="2" y="37.5" width="313" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="4FK-RL-F1w"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="17"/>
+                        <state key="normal" title="Button">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="clickButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="DvL-Av-R7B"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="FHs-EV-mv6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="2" id="7Qn-ek-wRq"/>
+                    <constraint firstAttribute="bottom" secondItem="8c3-3t-oYV" secondAttribute="bottom" constant="7" id="Ed2-1g-OYG"/>
+                    <constraint firstItem="Tcm-l6-Uzf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="2" id="GNz-xb-mbV"/>
+                    <constraint firstItem="8c3-3t-oYV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="2" id="GuC-Gn-WtQ"/>
+                    <constraint firstAttribute="bottom" secondItem="FHs-EV-mv6" secondAttribute="bottom" constant="7" id="Rdf-SP-6Ry"/>
+                    <constraint firstAttribute="trailing" secondItem="FHs-EV-mv6" secondAttribute="trailing" constant="5" id="hKi-r7-C7P"/>
+                    <constraint firstAttribute="trailing" secondItem="8c3-3t-oYV" secondAttribute="trailing" constant="5" id="pYS-Gt-bA9"/>
+                    <constraint firstAttribute="trailing" secondItem="Tcm-l6-Uzf" secondAttribute="trailing" constant="5" id="tlW-5y-5Pq"/>
+                    <constraint firstItem="Tcm-l6-Uzf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="xeW-HX-sQn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnSelect" destination="FHs-EV-mv6" id="DDO-rO-YIo"/>
+                <outlet property="lblTitle" destination="Tcm-l6-Uzf" id="Qix-Xy-czE"/>
+                <outlet property="tfTextfield" destination="8c3-3t-oYV" id="cqE-Ps-F3r"/>
+            </connections>
+            <point key="canvasLocation" x="184" y="60"/>
+        </tableViewCell>
+    </objects>
+</document>

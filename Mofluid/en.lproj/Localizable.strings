@@ -1,0 +1,188 @@
+/* 
+  Localizable.strings
+  Mofluid
+
+  Created by mac on 25/07/16.
+  Copyright © 2016 Mofluid. All rights reserved.
+*/
+"shop_by_category" = "  Shop By category";
+"choose_store" = "CHOOSE STORE";
+"featured_products" = "FEATURED PRODUCTS";
+"new_products" = "New Products";
+"home" = "Home";
+"search" = "Search";
+"cart" = "Cart";
+"user" = "User";
+"add_to_cart" = "ADD TO CART";
+"additional_information" = "Additional Information";
+"product_options" = "Product Options";
+"get_price" = "Get Price";
+"is_required_option" = " is required option";
+"are_required_options" = " are required options";
+"Please_Select_Options_to_continue" = "Please Select Options to continue";
+"ok" = "Ok";
+"in_stock" = "In Stock";
+"out_of_stock" = "Out Of Stock";
+"description" = "Description";
+"Please Choose Color to Continue" = "Please Choose Color to Continue";
+"Please Choose Size to Continue" = "Please Choose Size to Continue";
+"Quantity Out of Stock" = "Quantity Out of Stock";
+"Sorry!" = "Sorry!";
+"select" = "Select";
+"Please add item to continue" = "Please add item to continue";
+"selling_price" = "Selling Price";
+"please_select" = "Please Select";
+"enter" = "Enter";
+"LOGIN" = "LOGIN";
+//"email_address" = "Email Address";
+"Email Address" = "Email Address";
+"password" = "Password";
+"Password" = "Password";
+"Show_Password" = "Show Password";
+"Login" = "Login";
+"Forgot_Password"  = "Forgot Password";
+"Create_Account" = "Create Account";
+"Login_with_Facebook" = "Login with Facebook";
+"Login_with_Google+" = "Login with Google+";
+"Password length should be atleast 6 characters" = "Password length should be atleast 6 characters";
+"Password is required" = "Password is required";
+"Email id entered is incorrect." = "Email id entered is incorrect.";
+"Email is required" = "Email is required";
+"You have successfully login" = "You have successfully login";
+"Login failed" = "Login failed";
+"Please provide your registered email to retrieve your password" = "Please provide your registered email to retrieve your password";
+
+"Retrive Your Password" = "Retrive Your Password";
+"Go Back To Login" = "Go Back To Login";
+"Sign Up" = "Sign Up";
+"New User? Sign Up" = "New User? Sign Up";
+"Sign Up Now" = "Sign Up Now";
+"Already have an account? Login" = "Already have an account? Login";
+"Email id is required" = "Email id is required";
+"Full Name is required" = "Full Name is required";
+"Account already exists with email id" = "Account already exists with email id";
+"You will receive an email with a link to reset your password." = "You will receive an email with a link to reset your password.";
+"There is no account associated with" = "There is no account associated with";
+"Full Name" = "Full Name";
+"Search For Products" = "Search For Products";
+"MY CART" = "MY CART";
+"Your Cart is Empty!" ="Your Cart is Empty!";
+"Add items to it now?" = "Add items to it now?";
+"SHOP NOW" = "SHOP NOW";
+"you have reached to final quantity of this product." = "you have reached to final quantity of this product.";
+
+"Total" =  "Total";
+"Proceed To Checkout" = "Proceed To Checkout";
+"Continue Shopping" = "Continue Shopping";
+"Create An Account" = "Create An Account";
+
+"Checkout As Guest" = "Checkout As Guest";
+"CHECKOUT AS A GUEST OR REGISTER OR LOGIN" = "CHECKOUT AS A GUEST OR REGISTER OR LOGIN";
+
+"Continue" = "Continue";
+"Shipping Address" = "Shipping Address";
+"Please fill the form to complete your order." ="Please fill the form to complete your order.";
+
+"Billing Address"= "Billing Address";
+"Billing & Shipping Address" ="Billing & Shipping Address";
+
+"Shipping to different address" = "Shipping to different address";
+
+"Submit" = "Submit";
+"State" = "State";
+
+"First Name" = "First Name";
+"Last Name" = "Last Name";
+"Contact Number" = "Contact Number";
+"Email is not correct" = "Email is not correct";
+"Address" = "Address";
+"City" = "City";
+"Zipcode" = "Zipcode";
+"Service in problem" = "Service in problem";
+"Email" = "Email";
+"Country" = "Country";
+
+"Time Entry" = "Time Entry";
+" is required." = " is required.";
+"Only alphabets are allowed in" = "Only alphabets are allowed in";
+"Non numbers(or -) are not allowed in" = "Non numbers(or -) are not allowed in";
+"Not a valid zip code" = "Not a valid zip code";
+
+"Name (A - Z)" = "Name (A - Z)";
+"Name (Z - A)" = "Name (Z - A)";
+"Price (Low - High )" = "Price (Low - High )";
+"Price (High - Low)" = "Price (High - Low)";
+"Showing search result for  " = "Showing search result for  ";
+"No Products Available!" = "No Products Available!";
+"Search Result" = "Search Result";
+"Pull to refresh" = "Pull to refresh";
+"USER PROFILE" = "USER PROFILE";
+"My Orders" = "My Orders";
+
+"Logout" = "Logout";
+"Change Password" = "Change Password";
+"No Default Billing Address Found"= "No Default Billing Address Found";
+"You have successfully log out"= "You have successfully log out";
+
+"Edit Profile" = "Edit Profile";
+"Update" = "Update";
+
+"Edit Address" = "Edit Address";
+"Billing address updated successfully" = "Billing address updated successfully";
+"isUpdatedSuccess" = "isUpdatedSuccess" ;
+
+"Shipping address updated successfully" = "Shipping address updated successfully";
+"No Orders are placed yet" = "No Orders are placed yet";
+"Status:" = "Status:";
+"View Order" = "View Order";
+"Reorder" ="Reorder";
+"Grand Total" = "Grand Total";
+"Status" = "Status";
+"Order Id" = "Order Id";
+"Payment Method" = "Payment Method";
+"Shipping Method" = "Shipping Method";
+"Order Date" = "Order Date";
+"Items in your Order" = "Items in your Order";
+
+"Sub Total" = "Sub Total";
+
+"Shipping & Handling" = "Shipping & Handling";
+"Discount" = "Discount";
+"Tax" = "Tax";
+"View All Orders" = "View All Orders" ;
+
+"Order Summary" = "Order Summary";
+"Tax Amount" = "Tax Amount";
+"Discount Codes" = "Discount Codes" ;
+"Enter your coupon code if you have one" = "Enter your coupon code if you have one";
+"Apply Coupon" = "Apply Coupon";
+"Cancel" = "Cancel";
+"Proceed" = "Proceed";
+"Please enter coupon code" = "Please enter coupon code";
+"applied successfully" = "applied successfully";
+"is invalid" = "is invalid";
+"Order Review" = "Order Review";
+
+"Thank you for placing your order with us. We'll do our best to deliver it to below address.." = "Thank you for placing your order with us. We'll do our best to deliver it to below address..";
+"Name" = "Name";
+"Amount Payable" = "Amount Payable";
+"PayPal Transaction Id" = "PayPal Transaction Id";
+"Old Password" = "Old Password";
+"New Password" = "New Password";
+"Confirm Password" = "Confirm Password";
+
+
+
+
+"New Password and Confirm Password are not same" = "New Password and Confirm Password are not same";
+"Password length should be atleast 6" = "Password length should be atleast 6";
+"New Password is required" = "New Password is required";
+"Old Password is required" = "Old Password is required";
+
+"Select Payment" = "Select Payment";
+
+"Select Payment Method" = "Select Payment Method" ;
+"My Downloads" = "My Downloads";
+"Featured Downloads" = "Featured Downloads";
+"New Downloads" = "New Downloads";
+"Choose Strore" = "Choose Store";

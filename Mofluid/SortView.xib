@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SortView" customModule="Mofluid" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pnq-2o-X21">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uyX-dO-E6D">
+                            <rect key="frame" x="48" y="229" width="280" height="160"/>
+                            <subviews>
+                                <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9MG-KU-cUV">
+                                    <rect key="frame" x="0.0" y="0.0" width="280" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="SEL-UB-Hzi"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="13"/>
+                                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="imageEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="Name (A - Z)" image="normal_circle">
+                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <state key="selected" image="Radio-active"/>
+                                    <connections>
+                                        <action selector="btnSortOptionPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="TJC-KJ-N7E"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="euz-Wd-T5q">
+                                    <rect key="frame" x="0.0" y="40" width="280" height="1"/>
+                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="HGQ-kD-u8E"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSw-Jh-lV9">
+                                    <rect key="frame" x="0.0" y="40" width="280" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="hny-gU-kBc"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="13"/>
+                                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="imageEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="Name (Z - A)" image="normal_circle">
+                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <state key="selected" image="Radio-active"/>
+                                    <connections>
+                                        <action selector="btnSortOptionPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="6d6-Xk-Dbk"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7WU-42-LQe">
+                                    <rect key="frame" x="0.0" y="80" width="280" height="1"/>
+                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="0WD-va-eG2"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" tag="30" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xz8-Ti-9TJ">
+                                    <rect key="frame" x="0.0" y="80" width="280" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="V1k-CC-rQw"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="13"/>
+                                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="imageEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="Price (Low - High)" image="normal_circle">
+                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <state key="selected" image="Radio-active"/>
+                                    <connections>
+                                        <action selector="btnSortOptionPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="oZH-Hn-WZa"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVb-kq-3F9">
+                                    <rect key="frame" x="0.0" y="120" width="280" height="1"/>
+                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="oP1-S7-MBn"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" tag="40" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BWN-Yh-IQf">
+                                    <rect key="frame" x="0.0" y="121" width="280" height="39"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="39" id="aso-z0-wgR"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="13"/>
+                                    <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="imageEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="Price (High - Low)" image="normal_circle">
+                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <state key="selected" image="Radio-active"/>
+                                    <connections>
+                                        <action selector="btnSortOptionPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="bq3-4P-Y23"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.8901960784313725" green="0.8901960784313725" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="aVb-kq-3F9" firstAttribute="leading" secondItem="uyX-dO-E6D" secondAttribute="leading" id="2ve-qw-0Ml"/>
+                                <constraint firstAttribute="trailing" secondItem="7WU-42-LQe" secondAttribute="trailing" id="2xj-Zf-blQ"/>
+                                <constraint firstItem="TSw-Jh-lV9" firstAttribute="top" secondItem="9MG-KU-cUV" secondAttribute="bottom" id="4jX-Rd-W5Z"/>
+                                <constraint firstAttribute="trailing" secondItem="TSw-Jh-lV9" secondAttribute="trailing" id="CCu-kd-fz0"/>
+                                <constraint firstAttribute="trailing" secondItem="aVb-kq-3F9" secondAttribute="trailing" id="FDh-Yf-GaN"/>
+                                <constraint firstAttribute="trailing" secondItem="BWN-Yh-IQf" secondAttribute="trailing" id="Gat-D2-vcp"/>
+                                <constraint firstItem="BWN-Yh-IQf" firstAttribute="top" secondItem="xz8-Ti-9TJ" secondAttribute="bottom" constant="1" id="HkU-9d-NAm"/>
+                                <constraint firstItem="xz8-Ti-9TJ" firstAttribute="leading" secondItem="uyX-dO-E6D" secondAttribute="leading" id="JFR-Bx-aQN"/>
+                                <constraint firstItem="7WU-42-LQe" firstAttribute="top" secondItem="TSw-Jh-lV9" secondAttribute="bottom" id="UI8-NP-vzO"/>
+                                <constraint firstItem="euz-Wd-T5q" firstAttribute="top" secondItem="9MG-KU-cUV" secondAttribute="bottom" id="UKa-fy-ryj"/>
+                                <constraint firstItem="aVb-kq-3F9" firstAttribute="top" secondItem="xz8-Ti-9TJ" secondAttribute="bottom" id="W7D-hj-CQj"/>
+                                <constraint firstItem="BWN-Yh-IQf" firstAttribute="leading" secondItem="uyX-dO-E6D" secondAttribute="leading" id="Weh-pr-DC5"/>
+                                <constraint firstItem="7WU-42-LQe" firstAttribute="leading" secondItem="uyX-dO-E6D" secondAttribute="leading" id="bzh-Y1-wlo"/>
+                                <constraint firstAttribute="trailing" secondItem="euz-Wd-T5q" secondAttribute="trailing" id="e41-s6-Y54"/>
+                                <constraint firstAttribute="trailing" secondItem="9MG-KU-cUV" secondAttribute="trailing" id="epT-Md-ph2"/>
+                                <constraint firstAttribute="width" constant="280" id="fBQ-GP-aqK"/>
+                                <constraint firstItem="9MG-KU-cUV" firstAttribute="top" secondItem="uyX-dO-E6D" secondAttribute="top" id="jF8-WO-AlN"/>
+                                <constraint firstItem="euz-Wd-T5q" firstAttribute="leading" secondItem="uyX-dO-E6D" secondAttribute="leading" id="jUS-ps-0de"/>
+                                <constraint firstItem="TSw-Jh-lV9" firstAttribute="leading" secondItem="uyX-dO-E6D" secondAttribute="leading" id="py8-w8-Z6O"/>
+                                <constraint firstAttribute="trailing" secondItem="xz8-Ti-9TJ" secondAttribute="trailing" id="rRm-iL-idn"/>
+                                <constraint firstItem="9MG-KU-cUV" firstAttribute="leading" secondItem="uyX-dO-E6D" secondAttribute="leading" id="vXl-RM-hqh"/>
+                                <constraint firstAttribute="height" constant="160" id="vdl-LE-Hkl"/>
+                                <constraint firstItem="xz8-Ti-9TJ" firstAttribute="top" secondItem="TSw-Jh-lV9" secondAttribute="bottom" id="wVc-WL-7Ht"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="uyX-dO-E6D" firstAttribute="centerX" secondItem="pnq-2o-X21" secondAttribute="centerX" id="dDv-MI-LmZ"/>
+                        <constraint firstItem="uyX-dO-E6D" firstAttribute="centerY" secondItem="pnq-2o-X21" secondAttribute="centerY" constant="-24.5" id="hVc-hT-YWP"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="pnq-2o-X21" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="2sj-hN-ukL"/>
+                <constraint firstAttribute="trailing" secondItem="pnq-2o-X21" secondAttribute="trailing" id="F3r-FS-sKz"/>
+                <constraint firstItem="pnq-2o-X21" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="kSc-d4-f7s"/>
+                <constraint firstAttribute="bottom" secondItem="pnq-2o-X21" secondAttribute="bottom" id="waH-Ef-Eod"/>
+            </constraints>
+            <connections>
+                <outlet property="AtoZButton" destination="9MG-KU-cUV" id="edy-RR-0Ek"/>
+                <outlet property="HtoLBtn" destination="BWN-Yh-IQf" id="IjO-Qa-bLJ"/>
+                <outlet property="LtoHBtn" destination="xz8-Ti-9TJ" id="eps-7C-GGa"/>
+                <outlet property="ZtoABtn" destination="TSw-Jh-lV9" id="HTk-o2-0Hi"/>
+                <outlet property="touchView" destination="pnq-2o-X21" id="lIM-G9-YNg"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="Radio-active" width="16" height="16"/>
+        <image name="normal_circle" width="16" height="16"/>
+    </resources>
+</document>

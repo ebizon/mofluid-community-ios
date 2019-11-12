@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="filterIdentifierCell" rowHeight="43" id="KGk-i7-Jjw" customClass="FilterByTableViewCell" customModule="Mofluid" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="39"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mhh-jH-8g2">
+                        <rect key="frame" x="0.0" y="1" width="200" height="36"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWw-9d-VrS">
+                                <rect key="frame" x="8" y="9" width="184" height="20"/>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                                <color key="textColor" red="0.10980392160000001" green="0.10980392160000001" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SGP-MT-VLj">
+                                <rect key="frame" x="0.0" y="35" width="200" height="1"/>
+                                <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="ikN-2L-wYH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yWw-9d-VrS" firstAttribute="top" secondItem="Mhh-jH-8g2" secondAttribute="top" constant="9" id="6uI-Yr-zNm"/>
+                            <constraint firstAttribute="trailing" secondItem="yWw-9d-VrS" secondAttribute="trailing" constant="8" id="AFc-Pr-rPG"/>
+                            <constraint firstItem="yWw-9d-VrS" firstAttribute="leading" secondItem="Mhh-jH-8g2" secondAttribute="leading" constant="8" id="AmI-D9-3Ip"/>
+                            <constraint firstAttribute="bottom" secondItem="SGP-MT-VLj" secondAttribute="bottom" id="S8s-0R-o0K"/>
+                            <constraint firstAttribute="bottom" secondItem="yWw-9d-VrS" secondAttribute="bottom" constant="7" id="ZmK-Oz-zOa"/>
+                            <constraint firstAttribute="trailing" secondItem="SGP-MT-VLj" secondAttribute="trailing" id="ahQ-ad-nsy"/>
+                            <constraint firstItem="SGP-MT-VLj" firstAttribute="leading" secondItem="Mhh-jH-8g2" secondAttribute="leading" id="fBt-s1-nvb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Mhh-jH-8g2" secondAttribute="bottom" constant="2" id="C1X-Kd-prh"/>
+                    <constraint firstItem="Mhh-jH-8g2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="1" id="jLA-gd-zEo"/>
+                    <constraint firstAttribute="trailing" secondItem="Mhh-jH-8g2" secondAttribute="trailing" id="tMm-vl-2bH"/>
+                    <constraint firstItem="Mhh-jH-8g2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="wLG-li-z3e"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblTitle" destination="yWw-9d-VrS" id="rMw-9F-F6c"/>
+            </connections>
+            <point key="canvasLocation" x="326" y="275"/>
+        </tableViewCell>
+    </objects>
+</document>

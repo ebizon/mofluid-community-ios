@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WishListViewController" customModule="Mofluid" customModuleProvider="target">
+            <connections>
+                <outlet property="noProductLbl" destination="SMs-aO-HPJ" id="rPi-RC-aOg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wishListTableView" destination="mHb-mC-g5F" id="EkN-ub-wh1"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mHb-mC-g5F">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="eEV-kO-40P"/>
+                        <outlet property="delegate" destination="-1" id="57t-zc-RrZ"/>
+                    </connections>
+                </tableView>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="No Products in wishlist" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SMs-aO-HPJ">
+                    <rect key="frame" x="0.0" y="273" width="320" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="U8z-9S-8n5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="mHb-mC-g5F" secondAttribute="bottom" id="6Zb-kw-CGq"/>
+                <constraint firstAttribute="trailing" secondItem="mHb-mC-g5F" secondAttribute="trailing" id="GZ8-Ay-Xff"/>
+                <constraint firstItem="SMs-aO-HPJ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ZPc-rr-Ahg"/>
+                <constraint firstItem="mHb-mC-g5F" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="hFp-Zc-1gI"/>
+                <constraint firstItem="mHb-mC-g5F" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="nAX-Ea-PXz"/>
+                <constraint firstItem="SMs-aO-HPJ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="pH6-5o-KVu"/>
+                <constraint firstAttribute="trailing" secondItem="SMs-aO-HPJ" secondAttribute="trailing" id="v9k-5e-7nH"/>
+                <constraint firstItem="SMs-aO-HPJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="xhL-Af-fBy"/>
+            </constraints>
+            <point key="canvasLocation" x="369" y="249"/>
+        </view>
+    </objects>
+</document>

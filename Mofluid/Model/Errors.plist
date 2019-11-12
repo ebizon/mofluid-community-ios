@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GenericError</key>
+	<string>Something went wrong, please try later</string>
+	<key>NoInternetConnection</key>
+	<string>No internet connection, make sure your device is connected to the internet</string>
+	<key>NoDescription</key>
+	<string>No Description Found</string>
+	<key>FailedPlaceOrder</key>
+	<string>&quot;Some of product or appropriate quantity for product is not available in stock. Please try later&quot;</string>
+	<key>OutOfStock</key>
+	<string>The requested quantity for this product is not available</string>
+</dict>
+</plist>

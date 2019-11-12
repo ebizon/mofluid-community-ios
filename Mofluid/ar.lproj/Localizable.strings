@@ -1,0 +1,285 @@
+/* 
+ Localizable.strings
+ Mofluid
+ 
+ Created by mac on 25/07/16.
+ Copyright © 2016 Mofluid. All rights reserved.
+ */
+"shop_by_category" = "  متجر حسب الفئة";
+
+"choose_store" = "اختيار مخزن";
+"Choose Store" = "اختيار مخزن";
+"featured_products" = "المنتجات المميزة";
+"Featured Products" = "المنتجات المميزة";
+"FEATURED PRODUCTS" = "المنتجات المميزة";
+"new_products" = "منتجات جديدة";
+"New Products" = "منتجات جديدة";
+"home" = "الصفحة الرئيسية";
+"search" = "بحث";
+"cart" = "السلة";
+"user" = "مستخدم";
+
+"add_to_cart" = "أضف إلى السلة";
+"Quantity" = "كمية";
+
+"Add To Cart" = "أضف إلى السلة";
+"Additional Information" = "معلومة اضافية";
+"Product Options" = "خيارات المنتج";
+"get_price" = "احصل على الأسعار";
+"Get Price" = "احصل على الأسعار";
+
+"is_required_option" = " مطلوب الخيار";
+"is required option" = " مطلوب الخيار";
+"are_required_options" = " هي الخيارات المطلوبة";
+"are required options" = " هي الخيارات المطلوبة";
+"Please_Select_Options_to_continue" = "يرجى تحديد خيارات لمواصلة";
+"Please Select Options to continue" = "يرجى تحديد خيارات لمواصلة";
+"ok" = "حسنا";
+"Ok" = "حسنا";
+"in_stock" = "في المخزن";
+"In Stock" = "في المخزن";
+"Out of Stock" = "إنتهى من المخزن";
+"description" = "وصف";
+"  DESCRIPTION" = "وصف";
+"Please Choose Color to Continue" = "الرجاء اختيار اللون لمواصلة";
+"Please Choose Size to Continue" = "الرجاء اختيار القياس للمتابعة";
+"Quantity Out of Stock" = "كمية من المخزون";
+"Sorry!" = "!آسف";
+"select" = "اختار";
+"Please add item to continue" = "الرجاء إضافة بند إلى مواصلة";
+"Selling by price" = "بيع حسب السعر";
+"selling_price" = "سعر البيع";
+"Selling Price" = "سعر البيع";
+"please_select" = "اختر من فضلك";
+"Please Select" = "اختر من فضلك";
+"enter" = "أدخل";
+"Enter" = "أدخل";
+"LOGIN" = "تسجيل الدخول";
+"email_address" = "عنوان البريد الإلكتروني";
+"password" = "كلمه السر";
+"% off" = "٪ إيقاف";
+"Password" = "كلمه السر";
+"Show Password" = "عرض كلمة المرور";
+"Login" = "تسجيل الدخول";
+"Forgot Password"  = "هل نسيت كلمة المرور";
+"Create Account" = "انشئ حساب";
+"Login_with_Facebook" = "تسجيل الدخول باستخدام الفيسبوك";
+"Login_with_Google+" = "تسجيل الدخول مع جوجل +";
+"Password length should be atleast 6 characters" = "يجب أن يكون طول كلمة السر لا تقل عن 6 أحرف";
+"Password is required" = "كلمة المرور مطلوبة";
+"Email id entered is incorrect." = "البريد الإلكتروني معرف أدخلته غير صحيح .";
+"Email is required" = "مطلوب البريد الإلكتروني";
+"You have successfully login" = "لديك تسجيل الدخول بنجاح";
+"Login failed" = "فشل تسجيل الدخول";
+"Please provide your registered email to retrieve your password" = "يرجى تقديم البريد الإلكتروني المسجل لاستعادة كلمة السر الخاصة بك";
+
+"Retrive Your Password" = "استرجاع كلمة المرور";
+"Go Back To Login" = "العودة إلى تسجيل الدخول";
+"Sign Up" = "سجل";
+"New User? Sign Up" = "مستخدم جديد ؟ سجل";
+"Sign Up Now" = "أفتح حساب الأن";
+"Already have an account? Login" = "هل لديك حساب؟ تسجيل الدخول";
+"Email id is required" = "مطلوب البريد الإلكتروني معرف";
+"Full Name is required" = "مطلوب اسم الكامل";
+"Account already exists with email id" = "الحساب موجود بالفعل مع معرف البريد الإلكتروني";
+"You will receive an email with a link to reset your password." = " سوف تتلقى رسالة بريد إلكتروني مع وصلة ل إعادة تعيين كلمة المرور الخاصة بك ";
+"There is no account associated with" = "ليس هناك حساب المرتبط";
+"Full Name" = "الاسم الكامل";
+"Search For Products" = "بحث عن المنتجات";
+"MY CART" = "سلتي";
+"Your Cart is Empty!" ="عربة التسوق فارغة";
+"Add items to it now?" = "إضافة عناصر إلى الآن؟";
+"SHOP NOW" = "تسوق الآن";
+"you have reached to final quantity of this product." = "كنت قد وصلت إلى كمية النهائية لهذا المنتج.";
+
+"Total" =  "مجموع";
+"Proceed To Checkout" = "باشرالخروج من الفندق";
+"Continue Shopping" = "مواصلة التسوق";
+"Create An Account" = "  انشئ حساب ";
+
+"Checkout As Guest" = "الخروج كضيف";
+"CHECKOUT AS A GUEST OR REGISTER OR LOGIN" = "سداد الرسوم كزائر أو التسجيل أو الدخول";
+
+"Continue" = "استمر";
+"Shipping Address" = "عنوان الشحن";
+"Please fill the form to complete your order." ="يرجى ملء النموذج ل استكمال طلبك .
+";
+
+"Billing Address"= "عنوان وصول الفواتير";
+"Billing & Shipping Address" ="الفواتير و شحن عنوان";
+
+"Shipping to different address" = "الشحن إلى عنوان مختلف";
+
+"Submit" = "عرض";
+"State" = "حالة";
+"State*" = "حالة*";
+
+
+"First Name" = "الاسم الاول";
+"Last Name" = "الكنية";
+"Contact Number" = "رقم الاتصال";
+"Contact Number*" = "رقم الاتصال*";
+"Email is not correct" = "البريد الإلكتروني غير صحيح";
+"Address" = "عنوان";
+"City" = "مدينة";
+"City*" = "مدينة*";
+"Zipcode" = "الرمز البريدي";
+"Zipcode*" = "الرمز البريدي*";
+"Service in problem" = "الخدمة في مشكلة";
+"Email" = "البريد الإلكتروني";
+"Country" = "بلد";
+"Country*" = "بلد*";
+"All " = "جميع ";
+"Time Entry" = "وقت الدخول";
+" is required." = " مطلوب";
+"Only alphabets are allowed in" = "يسمح الحروف الهجائية الوحيدة في";
+"Non numbers(or -) are not allowed in" = "لا يسمح في - أرقام غير ( أو )";
+"Not a valid zip code" = "لا رمز بريدي صالح";
+
+"Name (A - Z)" = "اسم (A - Z)";
+"Name (Z - A)" = "اسم (Z - A)";
+"Price (Low - High )" = "السعر (منخفض - عالي )";
+
+"Price (High - Low)" = "السعر (عالية - منخفضة )";
+"Showing search result for  " = "عرض نتيجة البحث عن  ";
+"No Products Available!" = "لا المنتجات المتاحة !";
+"Search Result" = "نتيجة البحث";
+"Pull to refresh" = "سحب لتحديث";
+"USER PROFILE" = "ملف تعريفي للمستخدم";
+"My Orders" = "طلباتي";
+
+"Logout" = "خروج";
+"Change Password" = "تغيير كلمة السر";
+"No Default Billing Address Found"= "لا عنوان افتراضي الفواتير العثور على";
+"You have successfully log out"= "لقد سجل بنجاح";
+
+"Edit Profile" = "تعديل الملف الشخصي";
+"Update" = "تحديث";
+
+"Edit Address" = "تحرير عنوان";
+"Billing address updated successfully" = "عنوان الفواتير تحديث بنجاح";
+"isUpdatedSuccess" = "isUpdatedSuccess" ;
+
+"Shipping address updated successfully" = "عنوان الشحن تحديثها بنجاح";
+"No Orders are placed yet" = "يتم وضع أي أوامر بعد";
+"Status:" = "الحالة:";
+"View Order" = "مشاهدة الطلب";
+"Reorder" ="إعادة ترتيب";
+"Grand Total" = "المبلغ الإجمالي";
+"Status" = "الحالة";
+"Order Id" = "رقم التعريف الخاص بالطلب";
+"Payment Method" = "طريقة الدفع او السداد";
+"Shipping Method" = "طريقة الشحن";
+"Order Date" = "تاريخ الطلب";
+"Items in your Order" = "البنود في النظام الخاص بك";
+
+"Sub Total" = "المجموع الفرعي";
+
+"Shipping & Handling" = "شحن وتسليم";
+"Discount" = "خصم";
+"Tax" = "ضريبة";
+"View All Orders" = "عرض جميع الطلبات" ;
+
+"Order Summary" = "ملخص الطلب";
+"Tax Amount" = "قيمة الضريبة";
+"Discount Codes" = "رموز الخصم" ;
+"Enter your coupon code if you have one" = "أدخل رمز القسيمة إذا كان لديك واحدة";
+"Apply Coupon" = "تطبيق القسيمة";
+"Cancel" = "إلغاء";
+"Proceed" = "تقدم";
+"Please enter coupon code" = "الرجاء إدخال رمز القسيمة";
+"applied successfully" = "طبقت بنجاح";
+"is invalid" = "غير صالح";
+"Order Review" = "مراجعة الطلب";
+
+"Thank you for placing your order with us. We'll do our best to deliver it to below address.." = "شكرا ل وضع النظام معنا . ونحن سوف نبذل قصارى جهدنا ل تسليمها إلى العنوان التالي";
+"Name" = "اسم";
+"Amount Payable" = "المبلغ المستحق";
+"PayPal Transaction Id" = "باي بال رقم المعاملات";
+"Old Password" = "كلمة المرور القديمة";
+"New Password" = "كلمة السر الجديدة";
+"Confirm Password" = "تأكيد كلمة المرور";
+
+
+
+
+"New Password and Confirm Password are not same" = "كلمة المرور الجديدة و تأكيد كلمة المرور ليست نفسها";
+"Password length should be atleast 6" = "يجب أن يكون طول كلمة السر لا تقل عن 6";
+"New Password is required" = "مطلوب كلمة المرور الجديدة";
+"Old Password is required" = "مطلوب كلمة السر القديمة";
+
+"Select Payment" = "حدد الدفع";
+"Select" = "اختار";
+
+"Select Payment Method" = "اختار طريقة الدفع" ;
+"My Downloads" = "بلدي التنزيلات";
+"Featured Downloads" = "التنزيلات مميزة";
+"New Downloads" = "التنزيلات جديدة";
+"Choose Strore" = "اختيار مخزن";
+"NEW PRODUCTS" = "    منتجات جديدة";
+"FEATURED PRODUCTS" = "    المنتجات المميزة";
+"Product Detail" = "تفاصيل المنتج";
+"BUY NOW" = "اشتري الآن";
+"DESCRIPTION" = "وصف";
+"Description" = "وصف";
+"PRODUCT SPECIFICATIONS" = "مواصفات المنتج";
+"The Color of the product may be vary what is shown in image" = "ولون المنتج قد تختلف ما هو مبين في الصورة";
+"Select Color" = "اختيار اللون";
+"Select Size" = "أختر الحجم";
+"READ LESS" = "إقرأ أقل";
+"READ MORE" = "اقرأ أكثر";
+//"email_address" = "عنوان البريد الإلكتروني";
+"Email Address" = "عنوان البريد الإلكتروني";
+"Login with Facebook" = "تسجيل الدخول باستخدام الفيسبوك";
+"Login with Google+" = "تسجيل الدخول باستخدام + Google";
+"Cash On Delivery" = "الدفع عند التسليم";
+"Paypal Standard" = "ومعيار باي بال";
+"Edit" = "تحرير";
+"First Name*" = "الاسم الاول*";
+"Last Name*" = "الكنية*";
+"Address*" = "عنوان*";
+"BEST SELLER" = "     الأكثر مبيعًا";
+"Read all reviews >>" = "قراءة جميع التقييمات >>";
+"No Description Provided" = "لم يتم تقديم أية الوصف";
+"PRODUCT REVIEWS" = "تعليقات المنتج";
+"Write Review" = "أكتب مراجعة";
+"Please select filter value" = "الرجاء تحديد قيمة فلتر" ;
+"Please complete this order before ordering other items" = "يرجى إكمال هذا النظام قبل أن يأمر العناصر الأخرى" ;
+"Product is already added in cart" = "وسبق وأن أضفت المنتج في سلة" ;
+
+"View Order" = "مشاهدة الطلب" ;
+"Reorder" = "إعادة ترتيب" ;
+"MY ORDERS" = "طلباتي" ;
+"MY DOWNLOADS" = "بالتنزيل" ;
+"See More >>" = "شاهد المزيد >>" ;
+"Contact Info" = "معلومات الاتصال" ;
+"Email id" = "البريد الإلكتروني معرف" ;
+"Current Password" = "كلمة السر الحالية" ;
+"LOGOUT" = "خروج" ;
+"No orders placed" = "لا بطلبيات" ;
+
+"Edit" = "تحرير" ;
+"Edit" = "تحرير";
+"Apply" = "تطبيق" ;
+"Reset" = "إعادة تعيين" ;
+"Name (A - Z)" = "اسم (A - Z)" ;
+"Name (Z - A)" = "اسم (Z - A)" ;
+"Price (Low - High )" = "السعر (منخفض - عالي)" ;
+"Price (High - Low)" = "السعر (عالية - منخفضة)" ;
+"Filter" = "فلتر" ;
+"Sort" = "فرز" ;
+"Street Address 2" = "عنوان الشارع 2" ;
+"Street Address*" = "عنوان الشارع*" ;
+"Items in your Order" = "البنود في النظام الخاص بك" ;
+"how do you rate ths product ?" = "كيف تقيم تي إتش إس المنتج؟" ;
+"Quality" = "جودة" ;
+"Value" = "القيمة" ;
+"Price" = "السعر" ;
+"Review summary :" = "خلاصة المراجعة :" ;
+"Let us know your thought:" = "إعلامنا الفكر الخاص بك:" ;
+"Your nickname :" = "اسم الشهرة الخاص بك :" ;
+"Choose store" = "اختيار مخزن" ;
+"About us" = "معلومات عنا" ;
+"Wish List" = "قائمة الرغبات" ;
+"Privacy Policy" = "سياسة الخصوصية" ;
+"Rate this app" = "قيم هذا التطبيق" ;

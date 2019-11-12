@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddToCartVC" customModule="Mofluid_2" customModuleProvider="target">
+            <connections>
+                <outlet property="btnBuyNow" destination="3YK-AM-e3w" id="VwN-AJ-Uog"/>
+                <outlet property="btnCart" destination="vF0-50-u4r" id="u6b-GW-hrj"/>
+                <outlet property="btnWishList" destination="Bub-kg-oc8" id="E3S-lf-3ck"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleAspectFit" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="G4i-oc-YY8">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                    <subviews>
+                        <button opaque="NO" tag="10" contentMode="scaleToFill" horizontalHuggingPriority="249" placeholderIntrinsicWidth="210" placeholderIntrinsicHeight="40" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3YK-AM-e3w">
+                            <rect key="frame" x="0.0" y="0.0" width="224" height="50"/>
+                            <color key="backgroundColor" red="0.83529411760000005" green="0.35552549360000002" blue="0.3746386766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="13"/>
+                            <state key="normal" title="BUY NOW">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="15"/>
+                            </variation>
+                            <connections>
+                                <action selector="clickBuyNow:" destination="-1" eventType="touchUpInside" id="yZk-qx-N9T"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="20" contentMode="scaleToFill" placeholderIntrinsicWidth="91" placeholderIntrinsicHeight="40" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vF0-50-u4r">
+                            <rect key="frame" x="225" y="0.0" width="91" height="50"/>
+                            <color key="backgroundColor" red="0.3803921569" green="0.3803921569" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="91" id="Hpu-jt-9be"/>
+                            </constraints>
+                            <state key="normal" image="cart-1">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="clickCart:" destination="-1" eventType="touchUpInside" id="184-0F-H3Z"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="97" placeholderIntrinsicHeight="40" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bub-kg-oc8">
+                            <rect key="frame" x="317" y="0.0" width="97" height="50"/>
+                            <color key="backgroundColor" red="0.3803921569" green="0.3803921569" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="97" id="6TV-5Z-97b"/>
+                            </constraints>
+                            <state key="normal" image="love"/>
+                            <state key="selected" image="wishList_selected"/>
+                            <connections>
+                                <action selector="clickWishlist:" destination="-1" eventType="touchUpInside" id="ahs-zA-jmf"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="TOI-Gn-jJi"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="G4i-oc-YY8" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="XBI-oQ-tMH"/>
+                <constraint firstItem="G4i-oc-YY8" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="gX1-Wz-o0P"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="G4i-oc-YY8" secondAttribute="trailing" id="z5O-pH-F6s"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="-70" y="-326"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cart-1" width="37" height="37"/>
+        <image name="love" width="37" height="37"/>
+        <image name="wishList_selected" width="37" height="37"/>
+    </resources>
+</document>

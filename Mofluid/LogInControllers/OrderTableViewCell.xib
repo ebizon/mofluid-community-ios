@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="OrderTableViewCell" rowHeight="244" id="KGk-i7-Jjw" customClass="OrderTableViewCell" customModule="Mofluid_2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="421" height="214"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="421" height="213.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UPH-Ps-uhC">
+                        <rect key="frame" x="0.0" y="0.0" width="421" height="213"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="rqr-Am-FQx">
+                                <rect key="frame" x="0.0" y="0.0" width="421" height="205"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rqr-Am-FQx" firstAttribute="leading" secondItem="UPH-Ps-uhC" secondAttribute="leading" id="OuC-5s-Jzo"/>
+                            <constraint firstItem="rqr-Am-FQx" firstAttribute="top" secondItem="UPH-Ps-uhC" secondAttribute="top" id="Y2f-Hc-HHd"/>
+                            <constraint firstItem="rqr-Am-FQx" firstAttribute="bottom" secondItem="UPH-Ps-uhC" secondAttribute="bottomMargin" id="eTN-oN-NfM"/>
+                            <constraint firstAttribute="trailing" secondItem="rqr-Am-FQx" secondAttribute="trailing" id="sLC-m3-hjs"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="UPH-Ps-uhC" secondAttribute="trailing" id="ELu-NZ-Ljv"/>
+                    <constraint firstItem="UPH-Ps-uhC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="F3g-2B-U3w"/>
+                    <constraint firstAttribute="bottom" secondItem="UPH-Ps-uhC" secondAttribute="bottom" id="Yl9-pm-qbr"/>
+                    <constraint firstItem="UPH-Ps-uhC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="dJD-ki-xhs"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="orderTableView" destination="rqr-Am-FQx" id="JAC-PM-mim"/>
+            </connections>
+            <point key="canvasLocation" x="-328" y="354"/>
+        </tableViewCell>
+    </objects>
+</document>

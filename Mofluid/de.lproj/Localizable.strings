@@ -1,0 +1,181 @@
+/* 
+ Localizable.strings
+ Mofluid
+ 
+ Created by mac on 25/07/16.
+ Copyright © 2016 Mofluid. All rights reserved.
+ */
+
+"shop_by_category" = "  EINKAUFEN NACH KATEGORIE";
+"choose_store" = "Shop auswählen";
+"featured_products" = "AUSGEWÄHLTE PRODUKTE";
+"new_products" = "Neue Produkte";
+"home" = "Zuhause";
+"search" = "Suche";
+"cart" = "Karte";
+"user" = "Benutzer";
+"add_to_cart" = "In den Warenkorb legen";
+"additional_information" = "zusätzliche Information";
+"product_options" = "Produktoptionen";
+"get_price" = "Preis berechnen";
+"is_required_option" = " erforderlich Option";
+"are_required_options" = "Option erforderlich";
+"Please_Select_Options_to_continue" = "Bitte wählen Sie Optionen , um fortzufahren";
+"ok" = "Ok";
+"in_stock" = "Auf Lager";
+"out_of_stock" = "Ausverkauft";
+"description" = "Beschreibung";
+"Please Choose Color to Continue" = "Bitte wählen Sie Farbe , um fortzufahren";
+"Please Choose Size to Continue" = "Leasing Wählen Sie Größe , um fortzufahren";
+"Quantity Out of Stock" = "Menge Ausverkauft!";
+"Sorry!" = "Es tut uns leid!";
+"select" = "Wählen";
+"Please add item to continue" = "Bitte fügen Sie Artikel , um fortzufahren";
+"selling_price" = "Verkaufspreis";
+"please_select" = "Bitte auswählen";
+"enter" = "Eingeben";
+"LOGIN" = "ANMELDUNG";
+"email_address" = "E-Mail-Addresse";
+"password" = "Passwort";
+"Show_Password" = "Passwort anzeigen";
+"Login" = "Anmeldung";
+"Forgot_Password"  = "Passwort vergessen";
+"Create_Account" = "Benutzerkonto anlegen";
+"Login_with_Facebook" = "Mit Facebook einloggen";
+"Login_with_Google+" = "Einloggen mit Google+";
+"Password length should be atleast 6 characters" = "Kennwortlänge sollte atleast 6 Zeichen lang sein";
+"Password is required" = "Passwort wird benötigt";
+"Email id entered is incorrect." = "E-Mail -ID ist falsch.";
+"Email is required" = "E-Mail ist erforderlich";
+"You have successfully login" = "Sie haben erfolgreich anmelden";
+"Login failed" = "Anmeldung fehlgeschlagen";
+"Please provide your registered email to retrieve your password" = "Bitte geben Sie Ihre registrierte E-Mail Ihr Passwort abrufen";
+"Retrive Your Password" = "Retrive Ihr Passwort";
+"Go Back To Login" = "Zurück Zum Login";
+"Sign Up" = "Anmelden";
+"New User? Sign Up" = "Neuer Benutzer? Anmelden";
+"Sign Up Now" = "Jetzt anmelden";
+"Already have an account? Login" = "Hast du schon ein Konto? Anmeldung";
+"Password length should be atleast 6 characters" = "Kennwortlänge sollte atleast 6 Zeichen lang sein";
+"Email id is required" = "E-Mail -ID ist erforderlich";
+"Full Name is required" = "Vollständiger Name erforderlich";
+"Account already exists with email id" = "Konto existiert bereits mit E-Mail -ID";
+"You will receive an email with a link to reset your password." = "Sie erhalten eine E-Mail mit einem Link zum Zurücksetzen des Passworts erhalten.";
+"There is no account associated with" = "Es gibt kein Konto im Zusammenhang mit";
+"Full Name" = "Vollständiger Name";
+"Search For Products" = "Suche nach Produkten";
+"MY CART" = "MEIN WARENKORB";
+"Your Cart is Empty!" = "Dein Wagen ist leer!";
+"Add items to it now?" = "Hinzufügen von Elementen zu es jetzt?";
+"SHOP NOW" = "GESCHÄFT JETZT";
+"you have reached to final quantity of this product." = "Sie haben bis zur endgültigen Menge dieses Produkts erreicht.";
+"Total" =  "Gesamt";
+"Proceed To Checkout" = "Zur Kasse gehen";
+"Continue Shopping" = "Mit dem Einkaufen fortfahren";
+"Create An Account" = "Ein Konto erstellen";
+"Checkout As Guest" = "Kasse Als Gast";
+
+"CHECKOUT AS A GUEST OR REGISTER OR LOGIN" = "KASSE als Gast oder Registrieren oder Login";
+"Continue" = "Fortsetzen";
+"Shipping Address" = "Lieferanschrift";
+"Please fill the form to complete your order."= "Füllen Sie das Formular Ihre Bestellung abzuschließen.";
+
+"Billing Address" ="Rechnungsadresse";
+"Billing & Shipping Address" ="Billing & Versandadresse";
+"Shipping to different address" = "Versand an andere Adresse";
+"Submit" = "einreichen";
+"State" = "Bundesland";
+"First Name" = "Vorname" ;
+"Last Name" = "Familienname, Nachname";
+"Contact Number" = "Kontakt Nummer";
+"Email is not correct" = "E-Mail ist nicht korrekt";
+"Address" = "Adresse";
+"City" = "Stadt";
+"Zipcode" = "Postleitzahl";
+"Service in problem" = "Service im Problem";
+"Email" = "Email";
+"Country" = "Land";
+"Time Entry" = "Zeiteintrag";
+
+" is required." = " Wird benötigt.";
+"Only alphabets are allowed in" = "Nur Buchstaben sind erlaubt in";
+"Non numbers(or -) are not allowed in" = "Nicht -Nummern ( oder - ) sind nicht erlaubt in";
+"Not a valid zip code" = "Keine gültige Postleitzahl";
+
+"Name (A - Z)" = "Name (A - Z)";
+"Name (Z - A)" = "Name (Z - A)";
+"Price (Low - High )" = "Preis ( niedrig - hoch)";
+"Price (High - Low)" = "Preis ( Hoch - Niedrig )";
+"Showing search result for  " = "Zeige Suchergebnis  für  ";
+"No Products Available!" = "Keine Produkte verfügbar !";
+"Search Result" = "Suchergebnis";
+"Pull to refresh" = "Ziehen auffrischen";
+"USER PROFILE" = "BENUTZERPROFIL";
+"My Orders" = "Meine Befehle";
+"Logout" = "Ausloggen";
+"Change Password" = "Passwort ändern";
+"No Default Billing Address Found"= "Nein Standardrechnungsadresse gefunden";
+"You have successfully log out"= "Sie haben erfolgreich abmelden";
+
+"Edit Profile" = "Profil bearbeiten";
+"Update" = "Aktualisieren";
+
+"Edit Address" = "Adresse bearbeiten";
+
+"Billing address updated successfully" = "Rechnungsadresse aktualisiert erfolgreich";
+"isUpdatedSuccess" = "isUpdatedSuccess" ;
+
+"Shipping address updated successfully" = "Lieferadresse erfolgreich aktualisiert";
+"No Orders are placed yet" = "Es werden keine Bestellungen platziert noch";
+"Status:" = "Status:";
+"View Order" = "Bestellung anzeigen";
+"Reorder" ="Nachbestellung";
+"Grand Total" = "Gesamtsumme";
+"Status" = "Status";
+"Order Id" = "Auftragsnummer";
+"Payment Method" = "Bezahlverfahren";
+"Shipping Method" = "Méthode d'envoi";
+"Order Date" = "Auftragsdatum";
+"Items in your Order" = "Artikel Ihrer Bestellung";
+"Sub Total" = "Sub Total";
+
+"Shipping & Handling" = "Versand & Bearbeitung";
+"Discount" = "Rabatt";
+"Tax" = "Steuer";
+
+"View All Orders" = "Alle Bestellungen" ;
+"Order Summary" = "Bestellübersicht";
+"Tax Amount" = "Steuerbetrag";
+
+"Discount Codes" = "Rabattcodes" ;
+"Enter your coupon code if you have one" = "Geben Sie Ihren Gutschein-Code , wenn Sie einen haben,";
+
+"Apply Coupon" = "bewerben Coupon";
+"Cancel" = "Stornieren";
+"Proceed" = "Vorgehen";
+"Please enter coupon code" = "Bitte geben Sie Gutschein-Code";
+"applied successfully" = "erfolgreich angewendet";
+"is invalid" = "ist ungültig";
+"Order Review" = "Bestellen Bewertung";
+
+"Thank you for placing your order with us. We'll do our best to deliver it to below address.." = "Vielen Dank für Ihre Bestellung bei uns . Wir werden unser Bestes tun, um es zu folgenden Adresse zu liefern ..";
+"Name" = "Name";
+"Amount Payable" = "Bezahlbarer Betrag";
+"PayPal Transaction Id" = "PayPal Transaktions-ID";
+"Old Password" = "Altes Passwort";
+"New Password" = "Neues Kennwort";
+"Confirm Password" = "Bestätige das Passwort";
+
+
+"New Password and Confirm Password are not same" = "Neues Kennwort und Kennwort bestätigen nicht gleiche";
+"Password length should be atleast 6" = "Kennwortlänge sollte atleast 6 sein";
+"New Password is required" = "Neues Passwort erforderlich";
+"Old Password is required" = "Altes Kennwort ist erforderlich";
+
+"Select Payment" = "Wählen Sie Zahlungs";
+
+"Select Payment Method" = "Zahlungsmethode auswählen" ;
+"My Downloads" = "Meine Downloads";
+"Featured Downloads" = "Besondere Downloads";
+"New Downloads" = "Neue Downloads";
+"Choose Strore" = "wählen Sie Kirche";

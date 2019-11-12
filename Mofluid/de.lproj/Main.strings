@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "Old Password"; ObjectID = "P4S-zs-itM"; */
+"P4S-zs-itM.text" = "Old Password";
+
+/* Class = "UIButton"; normalTitle = "Update"; ObjectID = "aAM-mi-FBh"; */
+"aAM-mi-FBh.normalTitle" = "Update";
+
+/* Class = "UITabBarItem"; title = "Search"; ObjectID = "ayP-JU-bmV"; */
+"ayP-JU-bmV.title" = "Search";
+
+/* Class = "UITextField"; placeholder = "Old Password"; ObjectID = "lET-3m-pxJ"; */
+"lET-3m-pxJ.placeholder" = "Old Password";
+
+/* Class = "UITextField"; placeholder = "New Password"; ObjectID = "rHf-Ds-QDX"; */
+"rHf-Ds-QDX.placeholder" = "New Password";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "s5U-kK-Smg"; */
+"s5U-kK-Smg.text" = "Label";
+
+/* Class = "UILabel"; text = "Confirm Password"; ObjectID = "sIW-9R-2BI"; */
+"sIW-9R-2BI.text" = "Confirm Password";
+
+/* Class = "UITabBarItem"; title = "Cart"; ObjectID = "sQc-EY-ntT"; */
+"sQc-EY-ntT.title" = "Cart";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "ssj-Z8-y7v"; */
+"ssj-Z8-y7v.title" = "Home";
+
+/* Class = "UITabBarItem"; title = "User"; ObjectID = "u1J-Ci-yrw"; */
+"u1J-Ci-yrw.title" = "User";
+
+/* Class = "UILabel"; text = "New Password"; ObjectID = "uAA-Y7-y3r"; */
+"uAA-Y7-y3r.text" = "New Password";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "vVK-9p-sck"; */
+"vVK-9p-sck.placeholder" = "Confirm Password";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ygu-IB-H9O"; */
+"ygu-IB-H9O.text" = "Label";
+
+/* Class = "UILabel"; text = "Change Password"; ObjectID = "zsE-Fo-QBp"; */
+"zsE-Fo-QBp.text" = "Change Password";

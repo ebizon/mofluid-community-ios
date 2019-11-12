@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="selectFilterCell" rowHeight="40" id="KGk-i7-Jjw" customClass="selectFilterTableViewCell" customModule="Mofluid_2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="214" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="214" height="39.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ucD-R9-DYX">
+                        <rect key="frame" x="0.0" y="0.0" width="214" height="39"/>
+                        <subviews>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6Z-uE-xbz">
+                                <rect key="frame" x="20" y="9" width="16" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="uwX-Re-Amg"/>
+                                    <constraint firstAttribute="width" constant="16" id="wwV-xV-X6E"/>
+                                </constraints>
+                                <state key="normal" image="unchecked_circle"/>
+                                <state key="selected" image="check-active"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i31-SU-i8R">
+                                <rect key="frame" x="44" y="10" width="168" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="a6Z-uE-xbz" firstAttribute="leading" secondItem="ucD-R9-DYX" secondAttribute="leading" constant="20" id="0Va-Pa-0qz"/>
+                            <constraint firstAttribute="trailing" secondItem="i31-SU-i8R" secondAttribute="trailing" constant="2" id="9S6-sI-fWc"/>
+                            <constraint firstItem="i31-SU-i8R" firstAttribute="top" secondItem="ucD-R9-DYX" secondAttribute="top" constant="10" id="LRb-s7-bex"/>
+                            <constraint firstItem="i31-SU-i8R" firstAttribute="leading" secondItem="a6Z-uE-xbz" secondAttribute="trailing" constant="8" id="NrU-Ao-dyx"/>
+                            <constraint firstAttribute="bottom" secondItem="a6Z-uE-xbz" secondAttribute="bottom" constant="8" id="Q72-PG-swR"/>
+                            <constraint firstItem="a6Z-uE-xbz" firstAttribute="top" secondItem="ucD-R9-DYX" secondAttribute="top" constant="9" id="yEs-md-tKD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="ucD-R9-DYX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ggI-Bv-3g7"/>
+                    <constraint firstAttribute="trailing" secondItem="ucD-R9-DYX" secondAttribute="trailing" id="hCl-Rv-bv6"/>
+                    <constraint firstItem="ucD-R9-DYX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="lOP-rc-iYc"/>
+                    <constraint firstAttribute="bottom" secondItem="ucD-R9-DYX" secondAttribute="bottom" id="uNj-wU-Y9V"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.92941176470588238" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="btnRadio" destination="a6Z-uE-xbz" id="bFz-bF-JPQ"/>
+                <outlet property="selectFilterItemLabel" destination="i31-SU-i8R" id="VvN-2g-gDf"/>
+            </connections>
+            <point key="canvasLocation" x="269" y="323"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="check-active" width="16" height="16"/>
+        <image name="unchecked_circle" width="16" height="16"/>
+    </resources>
+</document>
